@@ -43,10 +43,10 @@ public class SampleTest {
         logger.info("test2()");
     }
 
-    @Test//(expected = RuntimeException.class)
+    @Test(expected = RuntimeException.class)
     public void testException() throws Exception {
         logger.info("testException()");
-//        throw new RuntimeException();
+        throw new RuntimeException();
     }
 
     @Test(timeout = 1000L)
