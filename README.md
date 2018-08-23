@@ -1,2 +1,2 @@
-# springrest-junit-mockito
-Demo project: SpringREST, JUnit, Mockito
+SpringBoot + SpringREST + JUnit + Mockito demo project
+------------------------------------------------------
